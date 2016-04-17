@@ -1,0 +1,6 @@
+*.deb
+.project
+.classpath
+.README.md.html
+exec.sh
+/bin/
