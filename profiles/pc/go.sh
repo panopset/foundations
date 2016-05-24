@@ -3,7 +3,7 @@
 #
 # Purpose:
 #
-#   One step remote initial setup of a Ubuntu flavored Linux PC.
+#   One step initial setup of a Ubuntu flavored Linux PC.
 #
 #############################################################################
 
