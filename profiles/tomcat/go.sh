@@ -8,8 +8,7 @@
 #############################################################################
 # Assemble, copy, and remotely execute and delete the exec.sh script.
 #############################################################################
-. init.sh
-./assemblyLine.sh
+. ./assemblyLine.sh
 scp files/tomcat.service ${SERVER_NAME}:/etc/systemd/system/
 scp files/rc.local ${SERVER_NAME}:/etc/
 chmod +x exec.sh

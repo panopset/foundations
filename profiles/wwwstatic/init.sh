@@ -1,16 +1,13 @@
-# go.sh
+# init.sh
 #############################################################################
 #
-#   One step remote initial setup of a new Jenkins server.
+#   Initialization of both the assemblyLine.sh and generated exec.sh scripts.
 #
 #############################################################################
 
 #############################################################################
-# Assemble, copy, and remotely execute and delete the exec.sh script.
+# Change the server_name to match the name of your Apache HTTP server, as it is
+# defined in your .ssh/config file.
 #############################################################################
-. ./assemblyLine.sh
-chmod +x exec.sh
-scp exec.sh ${SERVER_NAME}:/usr/local/bin/
-ssh ${SERVER_NAME} 'exec.sh'
-ssh ${SERVER_NAME} 'rm /usr/local/bin/exec.sh'
-
+export SERVER_NAME=wwwstatic
+export SWAP_ALLOCATION=2G
