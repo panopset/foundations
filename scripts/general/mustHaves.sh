@@ -5,4 +5,4 @@
 #   workstation or server.
 #
 #############################################################################
-sudo apt-get -y install openssh-server vim htop
+sudo apt-get -y install openssh-server vim htop curl
