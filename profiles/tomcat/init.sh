@@ -6,8 +6,8 @@
 #############################################################################
 
 #############################################################################
-# Change the server_name to match the name of your Jenkins server, as it is
+# Change the server_name to match the name of your Tomcat server, as it is
 # defined in your .ssh/config file.
 #############################################################################
-export SERVER_NAME=jenkins
+export SERVER_NAME=test
 export SWAP_ALLOCATION=2G
