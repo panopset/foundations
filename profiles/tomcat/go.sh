@@ -10,8 +10,8 @@
 #############################################################################
 . init.sh
 ./assemblyLine.sh
-scp files/tomcat.service test:/etc/systemd/system/
-scp files/rc.local test:/etc/
+scp files/tomcat.service ${SERVER_NAME}:/etc/systemd/system/
+scp files/rc.local ${SERVER_NAME}:/etc/
 chmod +x exec.sh
 scp exec.sh ${SERVER_NAME}:/usr/local/bin/
 ssh ${SERVER_NAME} 'exec.sh' > exec.log
