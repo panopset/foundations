@@ -3,4 +3,5 @@
 .classpath
 .README.md.html
 exec.sh
+exec.log
 /bin/
