@@ -33,14 +33,6 @@ over to your jenkins server, and execute it remotely.
  
     ./go.sh
 
-#Verify
-
-From your [test](http://test) server, you can do some verification, to check to make sure you have SWAP configured, and 
-that your Jenkins server, running in a java process, is listening 
-on port 80:
-
-    htop
-    netstat-tulpn | grep 80
 
 
 
