@@ -29,7 +29,7 @@ Change over to this directory if you haven't already done so.
     cd foundations/profiles/tomcat
 
 Run the script that will copy a generated exec.sh script
-over to your jenkins server, and execute it remotely.
+over to your tomcat server, and execute it remotely.
  
     ./go.sh
 
