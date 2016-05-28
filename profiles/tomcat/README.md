@@ -2,9 +2,9 @@
 
 These instructions were tested on a [digitalocean](http://www.digitalocean.com) [Ubuntu](http://www.ubuntu.com) server.
 
-#Define Jenkins on your workstation
+#Define the new Tomcat server on your workstation
 
-Add an entry to your .ssh/config file for your jenkins server, something like:
+Add an entry to your .ssh/config file for your tomcat server, something like:
 
     Host test
     Hostname <your host IP>
