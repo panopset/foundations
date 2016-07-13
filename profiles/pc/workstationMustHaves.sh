@@ -15,5 +15,5 @@ sudo apt-get -y install ant maven gradle npm
 # Mint/Ubuntu software that is not open source.
 sudo apt-get -y install linux-firmware-nonfree 
 
-# Apache2 http server.
-sudo apt-get -y install apache2
+# Servers
+sudo apt-get -y install apache2 tomcat8
