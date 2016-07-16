@@ -6,3 +6,4 @@
 #
 #############################################################################
 sudo apt-get -y install openssh-server vim htop curl
+
