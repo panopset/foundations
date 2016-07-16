@@ -24,3 +24,10 @@ sudo apt-get -y install linux-firmware-nonfree
 # Servers
 sudo apt-get -y install apache2 tomcat8
 
+# Fix reboot button for Cinnamon
+# http://askubuntu.com/questions/691813/cinnamon-desktop-clicking-menu-shutdown-presents-no-real-button-options/692791
+gsettings set org.cinnamon.desktop.session settings-daemon-uses-logind true
+gsettings set org.cinnamon.desktop.session session-manager-uses-logind true
+gsettings set org.cinnamon.desktop.session screensaver-uses-logind false
+
+
