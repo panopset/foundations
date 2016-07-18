@@ -27,3 +27,6 @@ on how to set up a jenkins server.
 In the profiles/pc folder, there are detailed [instructions](./profiles/pc/README.md)
 on how to do the initial setup of an Ubuntu workstation, right after initial install.
 
+See comments in workstationMustHaves.sh for droid tweak that needs to happen.
+
+

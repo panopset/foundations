@@ -19,7 +19,9 @@ sudo apt -y install linux-firmware-nonfree
 # Android
 #https://developer.android.com/studio/install.html
 #http://askubuntu.com/questions/637113/unable-to-locate-package-lib32bz2-1-0
-sudo apt -y install lib32z1 lib32ncurses5 libbz2-1.0:i386 lib32stdc++6
+sudo apt -y install lib32z1 lib32ncurses5 libbz2-1.0:i386 lib32stdc++6 gmtp
+#... and you'll still need to do this manually, after android sdk is installed:
+#https://mike42.me/blog/how-to-edit-emulator-flags-in-android-studio.
 
 # Servers
 sudo apt -y install apache2 tomcat8
