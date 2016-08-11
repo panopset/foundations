@@ -25,3 +25,6 @@ sudo apt -y install lib32z1 lib32ncurses5 libbz2-1.0:i386 lib32stdc++6 gmtp
 
 # Servers
 sudo apt -y install apache2 tomcat8
+
+# AMD Drivers
+sudo apt -y install dh-modaliases execstack debhelper dkms
