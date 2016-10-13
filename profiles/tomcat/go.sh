@@ -9,7 +9,7 @@
 # Assemble, copy, and remotely execute and delete the exec.sh script.
 #############################################################################
 . ./assemblyLine.sh
-scp files/tomcat.service ${SERVER_NAME}:/etc/systemd/system/
+scp files/tomcat.conf ${SERVER_NAME}:/etc/init
 scp files/rc.local ${SERVER_NAME}:/etc/
 chmod +x exec.sh
 scp exec.sh ${SERVER_NAME}:/usr/local/bin/

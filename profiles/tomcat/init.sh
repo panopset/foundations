@@ -9,5 +9,6 @@
 # Change the server_name to match the name of your Tomcat server, as it is
 # defined in your .ssh/config file.
 #############################################################################
-export SERVER_NAME=webapps
+export SERVER_NAME=re4ms0
 export SWAP_ALLOCATION=2G
+
