@@ -24,7 +24,11 @@ sudo apt-get -y install lib32z1 lib32ncurses5 lib32bz2-1.0 libbz2-1.0:i386 lib32
 #https://mike42.me/blog/how-to-edit-emulator-flags-in-android-studio.
 
 # Servers
-sudo apt-get -y install apache2 tomcat8
+# apache2
+sudo apt-get -y install apache2
+
+#tomcat8, getting it from netbeans for now.
+#sudo apt-get -y install tomcat8
 
 # Git config
 git config --global push.default simple
