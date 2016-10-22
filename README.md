@@ -19,9 +19,13 @@ Clone this project, and make its shell scripts executable:
     git clone https://github.com/panopset/foundations.git
     cd foundations
 
+## Tomcat server.
+In the profiles/tomcat folder, there are detailed [instructions](./profiles/tomcat/README.md)
+on how to set up a Tomcat server.
+
 ## Jenkins server.
 In the profiles/jenkins folder, there are detailed [instructions](./profiles/jenkins/README.md)
-on how to set up a jenkins server.
+on how to set up a Jenkins server.
 
 ## Workstation.
 In the profiles/pc folder, there are detailed [instructions](./profiles/pc/README.md)

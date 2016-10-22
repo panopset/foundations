@@ -10,9 +10,10 @@
 #############################################################################
 . ./assemblyLine.sh
 scp files/tomcat.conf ${SERVER_NAME}:/etc/init
-scp files/rc.local ${SERVER_NAME}:/etc/
+#scp files/rc.local ${SERVER_NAME}:/etc/
 chmod +x exec.sh
 scp exec.sh ${SERVER_NAME}:/usr/local/bin/
+scp files/init.sh /etc/profile.d/
 ssh ${SERVER_NAME} 'exec.sh' > exec.log
 
 #############################################################################

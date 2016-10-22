@@ -18,6 +18,8 @@ sudo apt-get -y install linux-firmware-nonfree
 
 # Android
 #https://developer.android.com/studio/install.html
+#from https://developer.android.com/studio/install.html instructions
+sudo apt-get -y install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 lib32bz2-1.0
 #http://askubuntu.com/questions/637113/unable-to-locate-package-lib32bz2-1-0
 sudo apt-get -y install lib32z1 lib32ncurses5 lib32bz2-1.0 libbz2-1.0:i386 lib32stdc++6 gmtp
 #... and you'll still need to do this manually, after android sdk is installed:
