@@ -46,10 +46,21 @@ https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubunt
 ##How to set up https:
 https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-14-04
 
-##Follow this tutorial to redirect to 8080 (not for Jenkins here, but for Tomcat, but the principal is the same):
-https://www.digitalocean.com/community/tutorials/how-to-configure-nginx-with-ssl-as-a-reverse-proxy-for-jenkins
+To avoid having to do this every time you want to swap in a new server, 
+
+    sudo apt-get install nginx
+
+copy over /etc/ssl and /etc/letsencrypt/live from the old server to the new one,
+and then put deploy/default in /etc/nginx/sites-available/, and 
+
+    sudo nginx -t
+    sudo service nginx restart
+    reboot 0
 
 #References
+
+##Follow this tutorial to redirect to 8080 (not for Jenkins here, but for Tomcat, but the principal is the same):
+https://www.digitalocean.com/community/tutorials/how-to-configure-nginx-with-ssl-as-a-reverse-proxy-for-jenkins
 
 ##Install tomcat:
 https://www.digitalocean.com/community/tutorials/how-to-install-apache-tomcat-8-on-ubuntu-14-04
