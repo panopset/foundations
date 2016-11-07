@@ -7,7 +7,11 @@ These instructions were tested on a [digitalocean](http://www.digitalocean.com) 
 
 To use this project, you will need the Panopset [Flywheel](https://github.com/panopset/flywheel) project.
 
-The easiest way to accomplish this is to put [panopset.jar](http://panopset.com/panopset.jar) in your $HOME directory, because it includes flywheel.  For a completely open source setup, you could use flywheel directly, something like:
+The easiest way to accomplish this is to put [panopset.jar](http://panopset.com/panopset.jar) in your $HOME directory, because it includes flywheel.  
+
+*Optional*
+
+For a completely open source setup, you could use flywheel directly, something like:
 
     git clone https://github.com/panopset/flywheel.git
     cd flywheel
@@ -17,9 +21,6 @@ The easiest way to accomplish this is to put [panopset.jar](http://panopset.com/
     ln -s flywheel.jar panopset.jar
     
 ... and everything will still work.
-
-##gradle.properties    
-Edit gradle.properties, and set the *deploy_domain* value to match your deployment domain name. 
 
 #Digitalocean instructions
 

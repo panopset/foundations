@@ -9,7 +9,7 @@
 
 sudo apt-get -y install unetbootin extlinux build-essential mtp-tools mtpfs 
 sudo apt-get -y install traceroute multiarch-support vim 
-sudo apt-get -y install wget filezilla git gitk git-gui
+sudo apt-get -y install wget filezilla git gitk git-gui kdirstat
 sudo apt-get -y install subversion ssh authbind cpu-checker samba 
 sudo apt-get -y install ant maven gradle npm
 
