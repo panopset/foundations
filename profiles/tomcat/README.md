@@ -59,7 +59,8 @@ and then put deploy/default in /etc/nginx/sites-available/, and
 
 #References
 
-##Follow this tutorial to redirect to 8080 (not for Jenkins here, but for Tomcat, but the principal is the same):
+##Redirect to 8080
+Follow this tutorial to redirect to 8080 (not for Jenkins here, but for Tomcat, but the principal is the same):
 https://www.digitalocean.com/community/tutorials/how-to-configure-nginx-with-ssl-as-a-reverse-proxy-for-jenkins
 
 ##Install tomcat:

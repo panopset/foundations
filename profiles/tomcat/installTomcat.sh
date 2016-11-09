@@ -27,4 +27,3 @@ sudo chmod g+rwx conf
 sudo chmod g+r conf/*
 sudo update-alternatives --config java
 popd
-popd
