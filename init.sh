@@ -9,4 +9,4 @@
 BASE="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 PROFILES=${BASE}/profiles
 SCRIPTS=${BASE}/scripts
-
+DOWNLOADS="${HOME}/Downloads"
