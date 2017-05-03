@@ -12,9 +12,9 @@
 #############################################################################
 # Create tomcat user, install tomcat, and update directory permissions.
 #############################################################################
-. ../../downloadFile.sh http://apache.mirrors.ionfish.org/tomcat/tomcat-8/v8.5.14/bin/apache-tomcat-8.5.14.tar.gz
+. ../../downloadFile.sh "http://apache.mirrors.ionfish.org/tomcat/tomcat-${TV}/v${TV}.${MV}/bin/apache-tomcat-${TV}.${MV}.tar.gz"
 sudo mkdir -p /opt/tomcat
-sudo tar xzvf "${DOWNLOADS}/apache-tomcat-8.5.14.tar.gz" -C /opt/tomcat --strip-components=1
+sudo tar xzvf "${DOWNLOADS}/apache-tomcat-${TV}.${MV}.tar.gz" -C /opt/tomcat --strip-components=1
 pushd /opt
 sudo chown -R tomcat tomcat
 cd tomcat
