@@ -4,7 +4,7 @@
 # Purpose:
 #
 #   Assemble exec.sh script for an Apache Tomcat server installation on 
-#   an Ubuntu development workstation (not for production use).
+#   an Ubuntu 16.04 system.
 #
 #############################################################################
 . ../../init.sh
