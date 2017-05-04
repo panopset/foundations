@@ -32,5 +32,5 @@ If you installed this on your workstation, this link should now work:
 
 To see the script without executing it:
 
-    ./assemblyline.sh
+    ./assemblyLine.sh
     vim exec.sh
